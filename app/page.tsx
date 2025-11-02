@@ -116,7 +116,7 @@ export default function Home() {
     <div className="flex min-h-screen items-start justify-center bg-zinc-50 dark:bg-black px-4 py-12 font-sans">
       <main className="w-full max-w-3xl">
         <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-black dark:text-zinc-50 text-center">
-          Create New Notice 📝
+          Smart Notice Board Web Portal 📝
         </h2>
 
         <form
@@ -152,7 +152,8 @@ export default function Home() {
               >
                 <option value="">Select a category</option>
                 <option value="General">General</option>
-                <option value="Urgent">Urgent</option>
+                <option value="Deadline">Deadline</option>
+                <option value="Exam">Exam</option>
                 <option value="Events">Events</option>
                 <option value="Maintenance">Maintenance</option>
               </select>
